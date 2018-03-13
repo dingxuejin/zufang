@@ -1,0 +1,81 @@
+<!--pages/zhifu/zhifu.wxml-->
+<view id='zhifu'>
+  <view class='fangdong1' bindtap='call'>
+    <view class='fangdong2'>
+      <image class='fangdong5' src='../../image/zhifu/lianxiren.png'></image>
+      <text>王房东</text>
+    </view>
+    <view class='fangdong2'>
+      <image class='fangdong5' src='../../image/zhifu/dianhua.png'></image>
+      <text> 18706254352</text>
+    </view>
+  </view>
+  <view class='fangdong3'>
+    <image class='fangdong4' src='../../image/zufangzi/u358.png'></image>
+    <text class='padText'>昆山市通风陆师傅阿斯蒂芬昆山市通风陆师傅阿斯蒂芬</text>
+  </view>
+  <view class='hr'></view>
+  <view class='zhifu1'>
+    <view class='zhifu2'>
+      <image class='zhifu4' src='{{globalImg}}image/shouye/banner2.jpg'></image>
+    </view>
+    <view class='zhifu3'>
+      <view class='zhifu5'>
+        <text>中大小区</text>
+      </view>
+      <view class='zhifu7'>
+        <text class='zhifu8'>一室一厅一卫</text>
+        <text class='zhifu8'>90m2</text>
+        <text class='zhifu8'>独立卫生间</text>
+        <text class='zhifu8'>独立卫生间</text>
+        <text class='zhifu8'>独立卫生间</text>
+      </view>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='zhifu9'>
+    <view>
+      <text>租房方式</text>
+    </view>
+    <view>
+      <text>押一付三</text>
+    </view>
+  </view>
+  <view class='zhifu9'>
+    <view>
+      <text>租房时间</text>
+    </view>
+    <view>
+      <text>2018/03/05</text>
+      <text>-</text>
+      <text>2019/05/14</text>
+    </view>
+  </view>
+  <view class='guanggao'>
+    <text>限时特惠！现在下单支付立享5折优惠</text>
+  </view>
+  <view class='zhifu9'>
+    <view>
+      <text>总金额</text>
+    </view>
+    <view>
+      <text>5000元</text>
+    </view>
+  </view>
+  <view class='zhifu9'>
+    <view>
+      <text>优惠</text>
+    </view>
+    <view>
+      <text>-2000元</text>
+    </view>
+  </view>
+  <view class='zhifu10'>
+    <view>
+      <text class='zhifu11'>实付款：3000元</text>
+    </view>
+    <view>
+      <button class='zhifu12'>微信支付</button>
+    </view>
+  </view>
+</view>

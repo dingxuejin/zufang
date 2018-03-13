@@ -1,0 +1,34 @@
+/* components/xiaoxi/xiaoxi.wxss */
+.xiaoxi{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+
+}
+.xiaoxi1{
+  width: 125rpx;
+  height: 125rpx;
+  overflow: hidden;
+}
+.xiaoxi2{
+  margin-left: 10rpx;
+}
+.xiaoxi1-1{
+  width: 100%;
+  height: 100%;
+}
+.xiaoxi3,.xiaoxi4{
+  font-size: 36rpx;
+  width: 450rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.xiaoxi5{
+  overflow: hidden;
+  width: 130rpx;
+  font-size: 32rpx;
+  text-align: right;
+}

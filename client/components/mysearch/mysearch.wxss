@@ -1,0 +1,22 @@
+/* components/mysearch/mysearch.wxss */
+.search1{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  border:2rpx solid #000;
+  border-radius: 30rpx;
+}
+.search2{
+  width:40rpx;
+  height: 40rpx;
+  margin-left: 50rpx;
+  flex-shrink: 0;
+}
+.search3{
+  flex-grow:1;
+  margin:0 30rpx 0 10rpx;
+  font-size: 32rpx;
+}
+.placeholder{
+  font-size: 30rpx;
+}

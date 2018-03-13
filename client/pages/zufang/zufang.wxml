@@ -1,0 +1,89 @@
+<!--pages/zufang/zufang.wxml-->
+
+<view>
+  <view id='search'>
+    <view class='search'>
+      <my-search></my-search>
+    </view>
+    <view class="city">
+      <text>城市</text>
+    </view>
+  </view>
+  <view id='zufang'>
+    <view class='flex'>
+      <view class='sx1' bindtap='totalActive' wx:for="{{sx}}" wx:key="{{index}}">
+        <view class='sx2 '>{{item}}</view>
+        <view class="sx3"> </view>
+      </view>
+    </view>
+    <view>
+      <scroll-view scroll-y="{{!totalActive}}" class='scrollMt'>
+        <navigator url='../detail/detail' class="hover1" hover-class="hover" wx:key="{{index}}" wx:for="{{zufang}}" hover-stay-time="2000">
+          <my-mt img="{{imgUrl}}{{item.img}}" weizhi="{{item.weizhi}}" daxiao="{{item.daxiao}}" jiage="{{item.jiage}}" fang="{{item.fang}}" dizhi="{{item.dizhi}}" youshi="{{item.youshi}}"></my-mt>
+        </navigator>
+      </scroll-view>
+    </view>
+  </view>
+</view>
+<!-- 筛选 -->
+ <view class='quyu0' wx:if="{{totalActive}}"> 
+  <view class='flex'>
+    <view class='sx1' data-sx="{{index}}" bindtap='toSx' wx:for="{{sx}}" wx:key="{{index}}">
+      <view class='sx2 {{index===sxActive && "sxActive"}}'>{{item}}</view>
+      <view class="{{index===sxActive?'sx4':'sx3'}}"> </view>
+    </view>
+  </view>
+  <!-- 区域筛选 -->
+  <view class='flex quyu6' wx:if="{{sxActive===0}}">
+    <view class='quyu1 quyu2'>
+      <view data-quyu='{{index}}' wx:for="{{diqu}}" wx:key="{{index}}" class='quyu4 {{quyuActive===index&&"quyuActive"}}' bindtap='toQuyu'>{{item.name}}</view>
+    </view>
+    <view class='quyu1 quyu3'>
+      <view data-num='{{index}}' bindtap='toRequest' class='quyu5 {{numActive===index&&"numActive"}}' wx:key="{{index}}" wx:for="{{diqu[quyuActive].array}}">{{item}}</view>
+    </view>
+  </view>
+  <!-- 价格筛选 -->
+  <view class='jiage0' wx:if="{{sxActive===1}}">
+    <view bindtap='toJiaGeRequest' wx:key="{{index}}" data-num='{{index}}' class='jiage1 {{jiageActive===index&&"numActive"}}' wx:for="{{jiage.array}}">{{item}}</view>
+    <view class='flex jiage2'>
+      <view bindtap='toJiaGeRequest' data-num="di" class='jiage3 {{jiageActive=="di"&&"numActive"}}'>按最低价格排序</view>
+      <view bindtap='toJiaGeRequest' data-num="gao" class='jiage3 {{jiageActive=="gao"&&"numActive"}}'>按最高价格排序</view>
+    </view>
+  </view>
+  <!-- 房型筛选 -->
+  <view class='jiage0' wx:if="{{sxActive===2}}">
+    <view class='chaoxiang1'>
+      <view class='chaoxiang2'>{{woshi.name}}</view>
+      <view class=' chaoxiang3'>
+        <view bindtap='toFangxing' data-num='{{index}}' class='chaoxiang4 {{index===fangxingActive&&"numActive"}}' wx:key="{{index}}" wx:for="{{woshi.array}}">{{item}}</view>
+      </view>
+    </view>
+    <view class='chaoxiang1'>
+      <view class='chaoxiang2'>{{weishengjian.name}}</view>
+      <view class=' chaoxiang3'>
+        <view bindtap='toWSJ' data-num='{{index}}' class='chaoxiang4 {{wsjActive===index&&"numActive"}}' wx:for="{{weishengjian.array}}" wx:key="{{index}}">{{item}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 更多筛选 -->
+  <view class='jiage0' wx:if="{{sxActive===3}}">
+    <view class='chaoxiang1'>
+      <view class='chaoxiang2'>{{chaoxiang.name}}</view>
+      <view class=' chaoxiang3'>
+        <view bindtap='toChaoxiang' data-num='{{index}}' class='chaoxiang4 {{index===chaoxiangActive&&"numActive"}}' wx:key="{{index}}" wx:for="{{chaoxiang.array}}">{{item}}</view>
+      </view>
+    </view>
+    <view class='chaoxiang1'>
+      <view class='chaoxiang2'>{{mianji.name}}</view>
+      <view class=' chaoxiang3'>
+        <view bindtap='toMianji' data-num='{{index}}' class='chaoxiang4 {{mianjiActive===index&&"numActive"}}' wx:for="{{mianji.array}}" wx:key="{{index}}">{{item}}</view>
+      </view>
+    </view>
+  </view>
+   <view class=' chaoxiang3'>
+      <view class='chaoxiang6 chaoxiang7' bindtap='toReset'>重置</view>
+      <view class='chaoxiang6 chaoxiang8' bindtap='toSubmit'>确定</view>
+    </view>
+  <view class='autoHeight' catchtap='totalActive'>
+  </view>
+</view>

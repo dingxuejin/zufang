@@ -1,0 +1,207 @@
+<!--pages/detail/detail.wxml-->
+<template name="dafu">
+  <view class='pinlun12'>
+    <view>
+      <image class='pinlun11' src='{{imgUrl}}image/详情页/u626.png'></image>
+      <text class='pinlun5 pinlun7'>李女士</text>
+    </view>
+    <view class='pinlun5'>
+      私聊，或者打我电话
+    </view>
+  </view>
+</template>
+<scroll-view scroll-y="true" class='scroll'>
+  <!-- 图片展示  -->
+  <view class='detail1'>
+    <swiper class="detail2" circular="true" bindchange="changeImg">
+      <swiper-item item-id="{{index}}" wx:key="{{index}}" wx:for="{{detail.img}}">
+        <image class='detail3' src='{{imgUrl}}{{item}}'></image>
+      </swiper-item>
+    </swiper>
+    <view class='detail4'>
+      <text>{{currentId}}</text>
+      <text>/</text>
+      <text>{{totailImg}}</text>
+    </view>
+  </view>
+  <view class='jianjie'>
+    <!-- 简介 -->
+    <view class='jianjie1'>
+      <view class='jianjie2'>江苏省昆山市同丰东路998号中大简介</view>
+      <view>
+        <image class='jianjie3' src='{{imgUrl}}image/详情页/u598.png'></image>
+      </view>
+    </view>
+    <view class='jianjie1'>
+      <view class='jianjie2 jianjie5'>
+        <text>3500元/月</text>
+        <text class='jianjie6'>季付</text>
+      </view>
+      <view class='jianjie4'> 付款方式></view>
+    </view>
+    <view>
+      <text class='jianjie7'>酒店式公寓</text>
+      <text class='jianjie7'>可短租</text>
+      <text class='jianjie7'>押一付一</text>
+    </view>
+    <view class='jianjie1 jianjie10'>
+      <view class='jianjie8'>24m²</view>
+      <view class='jianjie8'>一室一厅一卫</view>
+      <view class='jianjie8'>7/12</view>
+      <view class='jianjie8 jianjie9'>南北通透</view>
+    </view>
+    <view class='jianjie1'>
+      <view>
+        <image class='jianjie11' src='{{imgUrl}}image/租房子/u358.png'></image>
+        <text class='jianjie12'>江苏省昆山市同丰东路电商产业园 </text>
+      </view>
+      <view>></view>
+    </view>
+    <view class='jianjie13'>
+      <view class='jianjie14'>房屋简介</view>
+      <view class='jianjiel5'>此房为南北向三室二厅一卫，建筑面积为104.89平米，此房为南北向三室二厅一卫，建筑面积为104.89平米。郭新东路轻轨2线郭新路站 多路公交站直通园区、市区 出行方便</view>
+    </view>
+    <!-- 设备 -->
+    <view class='shebei1'>
+      <view class='shebei2'>房屋设备</view>
+      <view class='shebei3'>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u570.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>桌子</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u568.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>床</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u558.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>冰箱</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u564.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>淋浴</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u562.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>洗衣机</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u566.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>燃气灶</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u560.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>椅子</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u556.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>衣柜</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u572.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>灯</text>
+          </view>
+        </view>
+        <view class='shebei4'>
+          <view>
+            <image class='shebei5' src='{{imgUrl}}image/详情页/u574.png'></image>
+          </view>
+          <view class='shebei7'>
+            <text class='shebei6'>无线网</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <map class='map1' scale="17" longitude="121.003410" latitude="31.388150" markers="{{markers}}"></map>
+      <!-- 评论 --> -->
+      <view class="pinlun1">
+    <view class="pinlun2">—————————评论—————————</view>
+    <view class="pinlun3">User Comments</view>
+  </view>
+  <view class='pinlun4'>
+    <view class='pinlun4'>
+      <view class='pinlun7'>
+        <image class='pinlun6' src='{{imgUrl}}image/详情页/u626.png'></image>
+      </view>
+      <view class='pinlun5 pinlun7'>
+        <view>
+          李女士
+        </view>
+        <view>
+          22分钟前
+        </view>
+      </view>
+    </view>
+    <view class='pinlun4 pinlun5'>
+      <view class='pinlun9'>
+        <text>0</text>
+        <image class='pinlun8' src='{{imgUrl}}image/详情页/u620.png'></image>
+      </view>
+      <view>
+        <text>回复</text>
+        <image class='pinlun8' src='{{imgUrl}}image/详情页/u618.png'></image>
+      </view>
+    </view>
+  </view>
+  <view class='pinlun10'>
+    不错，什么价格
+  </view>
+  <view class='pinlun13'>
+    <template is="dafu" data="{{imgUrl}}"></template>
+    <template is="dafu" data="{{imgUrl}}"></template>
+    <template is="dafu" data="{{imgUrl}}"></template>
+  </view>  
+
+  </view>
+</scroll-view>
+<view class='flex' id='button'>
+  <view class='button flexCenter'>
+    <image class='shoucangIcon' src='../../image/detail/shoucang.png'></image>
+    <text> 一键收藏</text>
+  </view>
+  <view class='button'>
+    <navigator url='../kanyue/kanyue'>
+      <text>一键预约</text>
+    </navigator>
+  </view>
+  <view class='button'>
+    <navigator url='../zhifu/zhifu'>
+      <text>一键付款</text>
+    </navigator>
+  </view>
+</view>  

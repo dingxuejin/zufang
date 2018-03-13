@@ -1,0 +1,3 @@
+<!--pages/kanfang/kanfang.wxml-->
+<zfjl tbimg="{{imgUrl}}image/租房子/u358.png" zbt="江苏省昆山市同丰东路998号中大简介会" fbt="距离11号地铁786米" img="{{imgUrl}}image/首页/u118.png" qs="起租：2017/11/12" jz="截止日期：2018/01/11"></zfjl>
+<zfjl tbimg="{{imgUrl}}image/租房子/u358.png" zbt="江苏省昆山市同丰东路998号中大简介会" fbt="距离11号地铁786米" img="{{imgUrl}}image/首页/u118.png" qs="起租：2017/11/12" jz="截止日期：2018/01/11"></zfjl>

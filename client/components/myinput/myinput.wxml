@@ -1,0 +1,5 @@
+<!--components/myinput/myinput.wxml-->
+<view class="myinput">
+<input class='myinput1' placeholder='请输入小区地址' placeholder-class='ph'></input>
+<image class='myinput2' src='{{img}}'></image>
+</view>

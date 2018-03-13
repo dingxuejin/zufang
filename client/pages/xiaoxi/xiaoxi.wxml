@@ -1,0 +1,61 @@
+<!--pages/xiaoxi/xiaoxi.wxml-->
+<view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+  <view>
+    <navigator url='../hezu/hezu'>
+      <xiaoxi wx:key="{{index}}" wx:for="{{xiaoxi}}" img="{{imgUrl}}{{item.img}}" bt="{{item.bt}}" fbt="{{item.fbt}}" sj="{{item.sj}}"></xiaoxi>
+    </navigator>
+  </view>
+</view>

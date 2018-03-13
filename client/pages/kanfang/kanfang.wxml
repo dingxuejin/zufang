@@ -1,0 +1,19 @@
+<!--pages/kanfang/kanfang.wxml-->
+<template name="kanfang">
+  <view class='kanfang1'>
+    <view class='kanfang2'>
+      <image class='kanfang3' src='{{imgUrl}}image/首页/u88.png'></image>
+      <view class='kanfang4'>3500元/月</view>
+    </view>
+    <view class='kanfang5'>江苏省昆山市同丰东路998号中大简介会</view>
+    <view>
+      <text class='kanfang5'>三室一厅一卫</text>
+      <text class='kanfang6'>80m</text>
+      <text class='kanfang7'>2</text>
+    </view>
+  </view>
+</template>
+<template is="kanfang" data="{{imgUrl}}"/>
+<template is="kanfang"  data="{{imgUrl}}"/>
+<template is="kanfang"  data="{{imgUrl}}"/>
+<template is="kanfang"  data="{{imgUrl}}"/>

@@ -1,0 +1,48 @@
+<!--pages/login/login.wxml-->
+<view id='shanxian'>
+  <view class='shanxian1'>
+    <image class='shanxian2' src='../../image/shanxian/u4.png'></image>
+  </view>
+  <view class='shanxian3'>
+    <view class='shanxian4'>
+      叮咚
+    </view>
+    <view class='shanxian5'>
+      <view class='loginType'>
+        <block wx:for="{{loginType}}" wx:key="{{index}}">
+          <view data-typeid="{{index}}" class='{{typeCurrent==index?"loginType0":"loginType1"}}' bindtap='typeChange'>{{item}}</view>
+        </block>
+      </view>
+      <view class='weixinLogin' bindtap='login' wx:if="{{typeCurrent===0}}">
+        <image class='weixinImg' src='../../image/login/weixin.jpg'></image>{{item}}
+      </view>
+       <form wx:if="{{typeCurrent!=0}}">
+      <view class='shanxian6'>
+        <text class='shanxian7'>手机号</text>
+        <input class='shanxian8'></input>
+      </view>
+      <view class='shanxian6' wx:if="{{typeCurrent===1}}">
+        <text class='shanxian7'>密码</text>
+        <input class='shanxian8' password='true'></input>
+      </view>
+      <view class='shanxian6' wx:if="{{typeCurrent===2}}">
+        <text class='shanxian7'>验证码</text>
+        <input class='shanxian9'></input>
+        <button class='shanxian10'>获取验证码30S</button>
+      </view>
+      <button class='login1' bindtap='toShouYe'>登录</button>
+      <view class='shanxian6 login2'>
+        <view>
+          <text>忘记密码</text>
+        </view>
+        <view>
+          <navigator url='../regist/regist'>
+            <text>注册账号</text>
+          </navigator>
+        </view>
+      </view>
+    </form>
+    </view>
+   
+  </view>
+</view>
