@@ -1,0 +1,27 @@
+<!--components/mymt/mymt.wxml-->
+<view class='mt'>
+  <view class='mtImg'>
+    <image class='pic' src='{{img}}'></image>
+  </view>
+  <view class='mtCen'>
+    <view class='cenTitle1'>
+      <text>{{dizhi}}</text>
+    </view>
+    <view class='cenTitle2'>
+      <view>
+        <text> {{fang}}</text>
+        <text class='cenTitle4' wx:if="{{daxiao!==0}}">{{daxiao}}m</text>
+        <text class='cenTitle3' wx:if="{{daxiao!==0}}">2</text>
+      </view>
+      <view class='cenTitle5' wx:if="{{jiage!==0}}">{{jiage}}元/月</view>
+    </view>
+    <view>
+      <image lazy-load='true' class='cenTitle6' src='{{tubiao}}'></image>
+      <text class='cenTitle7'>{{weizhi}}</text>
+    </view>
+    <view class='cenTitle8'>
+      <view class='cenTitle9'wx:key="{{index}}" wx:for="{{youshi}}" style='color:{{changeRgb[index]}};background:{{changeBgrgb[index]}}'>{{item}}</view>
+    </view>
+  </view>
+</view>
+<view class='mtHr'></view>

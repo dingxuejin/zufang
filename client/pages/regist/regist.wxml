@@ -1,0 +1,38 @@
+<!--pages/regist/regist.wxml-->
+<!--pages/login/login.wxml-->
+<view id='shanxian'>
+  <view class='shanxian1'>
+    <image class='shanxian2' src='../../image/shanxian/u4.png'></image>
+  </view>
+  <view class='shanxian3'>
+    <view class='shanxian4'>
+      叮咚
+    </view>
+    <view class='shanxian5'>
+      <form>
+        <view class='shanxian6'>
+          <text class='shanxian9'>账</text>
+          <text class='shanxian9'>户</text>
+          <input class='shanxian8' placeholder='请输入4-12位的账户名' placeholder-class="regist4" bindblur='testName'></input>
+        </view>
+        <view class='shanxian6'>
+          <input class='shanxian8 regist1' placeholder='请输入验证码' placeholder-class="regist4" bindblur='testYZM'></input>
+          <text class='shanxian7 regist2'>获取验证码30S</text>
+        </view>
+        <view class='shanxian6'>
+          <text class='shanxian9'>密</text>
+          <text class='shanxian9'>码</text>
+          <input bindblur='testPwd' class='shanxian8' placeholder='请输入6-15字母、数字和下划线' password='{{isShow}}' placeholder-class="regist4" ></input>
+          <!-- 是否显示密码 -->
+          <!-- <text bindtap='showMA'>显示</text> -->
+        </view>
+        <view class='shanxian6'>
+          <text class='shanxian7'>确认密码</text>
+          <input bindblur='RePwd' class='shanxian8' password='{{isShow}}' placeholder='请确认密码' placeholder-class="regist4"></input>
+        </view>
+        <button class='login1' bindtap='toLogin'>注册</button>
+      </form>
+    </view>
+
+  </view>
+</view>

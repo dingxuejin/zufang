@@ -1,0 +1,35 @@
+/* components/myinput/myinput.wxss */
+
+.myinput, .myinput1 {
+  height: 45rpx;
+}
+
+.myinput {
+  border-radius: 19rpx;
+  background: #f3f2f0;
+  width: 100%;
+  position: relative;
+}
+
+.myinput1 {
+  margin-left: 100rpx;
+  background-color: transparent;
+  box-sizing: border-box;
+  /* border: 1px solid #000;   */
+  width: auto;
+}
+
+.myinput2 {
+  /* border: 1px solid #f00;  */
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 60rpx;
+}
+
+.ph {
+  color: #aaa;
+}

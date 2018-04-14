@@ -1,0 +1,34 @@
+<!--pages/jiaozu/jiaozu.wxml-->
+<template name="jiaozu">
+  <view class='jiaozu'>
+    <view class='jiaozu1'>
+      <image class='jiaozu2' src='{{imgUrl}}image/首页/u88.png'></image>
+      <view class='jiaozu3'>
+        <view class='jiaozu4 jiaozu10'>
+          江苏省昆山市同丰东路998号中大简介会
+        </view>
+        <view class='jiaozu4'>
+          编号：jd7623
+        </view>
+        <view class='jiaozu5'>
+          <view class='jiaozu6'>
+            <text class='jiaozu4'>三室一厅一卫</text>
+            <text class='jiaozu4'>80</text>
+            <text class='jiaozu4'>m</text>
+            <text class='jiaozu7'>2</text>
+          </view>
+          <view class='jiaozu8'>
+            <text class='jiaozu9'>需支付：</text>
+            <text class='jiaozu9'> 1178</text>
+            <text class='jiaozu9'>元</text>
+          </view>
+        </view>
+      </view>
+    </view>
+    <button class='btn'>缴租</button>
+    <button class="btn">退款</button>
+  </view>
+
+</template>
+<template is="jiaozu" data="{{imgUrl}}" />
+<template is="jiaozu"  data="{{imgUrl}}"/>

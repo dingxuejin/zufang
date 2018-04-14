@@ -1,0 +1,11 @@
+<!--pages/liulan/liulan.wxml-->
+<view class='search'>
+  <my-search bindtoSearch="toSearch"></my-search>
+</view>
+<view class='flex xuanxiang'>
+  <view>全部</view>
+  <view>可签约</view>
+  <view>签约中</view>
+  <view>已签约</view>
+</view>
+<shoucang tbimg="{{imgUrl}}image/租房子/u358.png" zbt="江苏省昆山市同丰东路998号中大简介会" fbt="距离11号地铁786米" img="{{imgUrl}}image/首页/u118.png" ></shoucang>

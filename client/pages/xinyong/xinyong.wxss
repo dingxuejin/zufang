@@ -1,0 +1,65 @@
+/* pages/xinyong/xinyong.wxss */
+
+.xinyong {
+  padding: 20rpx;
+}
+
+.xinyong1 {
+  border-bottom: 1rpx solid #ddd;
+}
+
+.xinyong2 {
+  font-size: 28rpx;
+}
+
+.xinyong3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.xinyong4, .xinyong5 {
+  border: 1rpx solid #ddd;
+  width: 710rpx;
+  height: 710rpx;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.xinyong4{
+  margin-top:10rpx;
+}
+.xinyong5 {
+  position: relative;
+}
+
+.xinyong6, .xinyong7 {
+  border: 1rpx solid #ddd;
+  position: absolute;
+}
+
+.xinyong6 {
+  width: 0;
+  height: 50%;
+  top: 25%;
+  left: 50%;
+}
+
+.xinyong7 {
+  width: 50%;
+  height: 0;
+  top:50%;
+  left: 25%;
+  
+}
+.xinyong8{
+  font-size: 40rpx;
+  zoom: 50%;
+}
+.xinyong9{
+  display: inline-block;
+  color: #09c;
+  font-size: 20rpx;
+}
+.xinyong10{
+  margin-top: 30rpx;
+}

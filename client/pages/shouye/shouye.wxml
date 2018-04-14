@@ -1,0 +1,110 @@
+<view wx:if="{{globalImg}}">
+  <view id="search">
+    <view class="city">
+      <text>城市</text>
+    </view>
+    <view class='search'>
+      <my-search img="{{globalImg}}image/首页/u146.png"></my-search>
+    </view>
+    <view class="msg">
+      <text>消息</text>
+    </view>
+  </view>
+  <view id='banner'>
+    <swiper class='banner1' indicator-dots='true' indicator-active-color='#fff' autoplay='true' circular='true' interval='3000'>
+      <swiper-item class="banner2">
+        <navigator class="banner2" url='../detail/detail'>
+          <image src='{{globalImg}}image/首页/u88.png'></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator class="banner2" url='../detail/detail'>
+          <image src='{{globalImg}}image/首页/u88.png'></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator class="banner2" url='../detail/detail'>
+          <image src='{{globalImg}}image/首页/u88.png'></image>
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view id='nav'>
+    <navigator url='../zufang/zufang' open-type="switchTab">
+      <view class='nav1'>
+        <image src='{{globalImg}}image/首页/u96.png' class='nav2'></image>
+        <image src='{{globalImg}}image/首页/u104.png' class="nav3"></image>
+        <text class='nav4'>租房</text>
+      </view>
+    </navigator>
+    <navigator url='../tuoguan/tuoguan'>
+      <view class='nav1'>
+        <image binderror="aa" src='{{globalImg}}image/首页/u98.png' class='nav2'></image>
+        <image src='{{globalImg}}image/首页/u106.png' class="nav3"></image>
+        <text class='nav4'>托管</text>
+      </view>
+    </navigator>
+    <navigator url='../hezu/hezu'>
+      <view class='nav1'>
+        <image src='{{globalImg}}image/首页/u100.png' class='nav2'></image>
+        <image src='{{globalImg}}image/首页/u180.png' class="nav3"></image>
+        <text class='nav4'>合租</text>
+      </view>
+    </navigator>
+
+    <view class='nav1'>
+      <image src='{{globalImg}}image/首页/u178.png' class='nav2'></image>
+      <image src='{{globalImg}}image/首页/u184.png' class="nav3"></image>
+      <text class='nav4'>关注</text>
+    </view>
+  </view>
+
+  <view id='ppgy'>
+    <my-pro progoto="{{globalImg}}image/首页/u114.png" protitle="品牌公寓" proftitle="给您最温馨的服务">
+      <view class='ppgy'>
+        <navigator url='../detail/detail'>
+          <view class='ppgy1'>
+            <image class='ppgy2' src='{{globalImg}}image/首页/u116.png'></image>
+            <view class="ppgy3">
+              <text>1000元/月</text>
+            </view>
+          </view>
+        </navigator>
+        <navigator url='../detail/detail'>
+          <view class='ppgy1'>
+            <image class='ppgy2' src='{{globalImg}}image/首页/u116.png'></image>
+            <view class="ppgy3">
+              <text>1000元/月</text>
+            </view>
+          </view>
+        </navigator>
+        <navigator url='../detail/detail'>
+          <view class='ppgy1'>
+            <image class='ppgy2' src='{{globalImg}}image/首页/u116.png'></image>
+            <view class="ppgy3">
+              <text>1000元/月</text>
+            </view>
+          </view>
+        </navigator>
+
+      </view>
+    </my-pro>
+  </view>
+
+  <view id='wnjx'>
+    <my-pro progoto="{{globalImg}}image/首页/u114.png" protitle="为你精选" proftitle="致力于提供客户优质的房源">
+      <view class='wnjx'>
+        <navigator url='../detail/detail'>
+          <view class='wnjx1'>
+            <image class='wnjx2' src='{{globalImg}}image/首页/u116.png'></image>
+          </view>
+        </navigator>
+        <navigator url='../detail/detail'>
+          <view class='wnjx1'>
+            <image class='wnjx2' src='{{globalImg}}image/首页/u116.png'></image>
+          </view>
+        </navigator>
+      </view>
+    </my-pro>
+  </view>
+</view>

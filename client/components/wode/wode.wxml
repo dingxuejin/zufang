@@ -1,0 +1,19 @@
+<!--components/wode/wode.wxml-->
+<view class='wode'>
+  <view class='wode1'>
+    <view class='wode2' style='width:{{imgwidth}};height:{{imgheight}};border-radius:{{imgradius}}'>
+      <image class='wode3' src='{{img}}'></image>
+    </view>
+    <view class='wode4'>
+      <view class='wode5'>
+        <text>{{zbt}}</text>
+      </view>
+      <view class='wode6'>
+        <text>{{fbt}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='wode7'>
+    <text>></text>
+  </view>
+</view>

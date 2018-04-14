@@ -1,0 +1,4 @@
+<!--pages/shaoma/shoama.wxml-->
+<button bindtap='shaoma'>
+  {{aaa}}
+</button>

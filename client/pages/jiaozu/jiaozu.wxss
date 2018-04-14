@@ -1,0 +1,46 @@
+/* pages/jiaozu/jiaozu.wxss */
+.jiaozu{
+  margin-top:10rpx;
+  border-bottom:10rpx solid #eee;
+}
+.jiaozu1{
+  position: relative;
+}
+.jiaozu2{
+  width:748rpx;
+  height: 386rpx;
+}
+.jiaozu3{
+  padding:25rpx;
+  opacity: 0.5;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+  width:700rpx;
+}
+.jiaozu4{
+  font-size: 22rpx;
+  color: #fff;
+}
+.jiaozu5{
+  display: flex;
+  justify-content: space-between;
+}
+.jiaozu7{
+  vertical-align: super;
+  font-size: 15rpx;
+  color: #fff;
+}
+.jiaozu8{
+  background: #999;
+}
+.jiaozu9{
+  font-size: 24rpx;
+}
+.jiaozu10{
+  margin-bottom:15rpx;
+}
+.btn{
+  background: #fff;
+  color:#f00;
+}

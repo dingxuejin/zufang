@@ -1,0 +1,18 @@
+<!--components/shoucang/shoucang.wxml-->
+  <view class='shoucang'>
+    <view class='shoucang1'>
+      <image class='shoucang2' src='{{img}}'></image>
+    </view>
+    <view class='shoucang3'>
+      <view class='shoucang4'>{{zbt}}</view>
+      <view class='shoucang5'>
+        <view class='shoucang6'>
+          <image class='shoucang7' src='{{tbimg}}'></image>
+          <text class='shoucang8'>{{fbt}}</text>
+        </view>
+        <view class='shoucang9'>
+          <text>{{zt}}</text>
+        </view>
+      </view>
+    </view>
+  </view>

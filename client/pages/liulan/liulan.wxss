@@ -1,0 +1,4 @@
+/* pages/liulan/liulan.wxss */
+.search{
+  padding:20rpx;
+}

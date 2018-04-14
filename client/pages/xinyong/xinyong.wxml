@@ -1,0 +1,29 @@
+<!--pages/xinyong/xinyong.wxml-->
+<view class='xinyong'>
+  <view class='xinyong1'>
+    <label class='xinyong2'>姓名</label>
+    <input class='xinyong3'></input>
+  </view>
+  <view class='xinyong1'>
+    <label class='xinyong2' for='sfz'>
+      <text>身份证号码</text>
+    </label>
+    <input class='xinyong3' id='sfz'></input>
+  </view>
+  <view class='xinyong1'>
+    <label class='xinyong2'>手持身份证</label>
+    <view class='xinyong4' style='background-image:url({{upImg}});'>
+      <view class='xinyong5' bindtap='chooseImg'>
+        <cover-view wx:if="{{showImg}}" class='xinyong6'></ cover-view>
+          <cover-view wx:if="{{showImg}}" class='xinyong7'></cover-view>
+      </view>
+    </view>
+  </view>
+  <checkbox class='xinyong8'>
+    我已阅读并同意
+  </checkbox>
+  <navigator class='xinyong9'>
+    <text>《xx信用服务条例》</text>
+  </navigator>
+  <button class='xinyong10' type='warn'>立刻开启</button>
+</view>

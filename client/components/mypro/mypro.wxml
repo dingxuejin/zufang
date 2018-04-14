@@ -1,0 +1,14 @@
+<!--components/mypro/mypro.wxml-->
+<view class='pro'>
+  <view class='pro-hr'></view>
+  <view class='pro1'>
+    <view class='pro2'>{{protitle}}</view>
+    <view class='pro3'>
+      <image class='pro4' src="{{progoto}}"></image>
+    </view>
+  </view>
+  <view class='pro5'>{{proftitle}}</view>
+  <view>
+    <slot></slot>
+  </view>
+</view>

@@ -1,0 +1,61 @@
+<!--pages/kanyue/kanyue.wxml-->
+<view class='kanyue1'>
+  <view class='kanyue2'>
+    <image class='kanyue3' src='../../image/首页/u118.png'></image>
+  </view>
+  <view class='kanyue4'>
+    <view class='kanyue5'>
+      <text>江苏省昆山市同丰东路998号中大简介会</text>
+    </view>
+    <view class='kanyue6'>
+      <view>
+        <image class='kanyue7' src='../../image/租房子/u358.png'></image>
+        <text class='kanyue8'>距离11号地铁786米</text>
+      </view>
+      <view class='kanyue9'>7/12</view>
+    </view>
+    <view>
+      <text class='kanyue10'>￥2300-2500</text>
+    </view>
+  </view>
+</view>
+<form  bindsubmit="formSubmit">
+  <view class='form1'>
+    <text class='form2'>姓名</text>
+    <input class='form3' name="uname"></input>
+  </view>
+  <view class='form1'>
+    <text class='form2'>性别</text>
+    <view>
+      <text class='form2'>男</text>
+      <switch color='#f00' name="uxb"></switch>
+      <text class='form2'>女</text>
+    </view>
+
+  </view>
+  <view class='form1 form4'>
+    <text class='form2 '>手机号</text>
+    <input class='form3' name="sex" disabled='{{tongyi}}' placeholder='请输入手机号'></input>
+  </view>
+  <view class='form1 form4'>
+    <text class='form2'>预约看房时间</text>
+    <input placeholder-class="form3" name="time" disabled='{{tongyi}}' class='form3' value='随时可以看'></input>
+  </view>
+  <view class='form1'>
+    <text class='form2'>给房东留言</text>
+  </view>
+  <textarea name="msg" class='form5 form3' placeholder-class="form3"  disabled='{{tongyi}}' placeholder='随时可以看'></textarea>
+  <view>
+    <text class='form2'>温馨提示：请确认交易后在付钱，谨防诈骗。</text>
+  </view>
+  <button class='submit' form-type='submit' type='warn'>提交预约</button>
+</form>
+
+<view class='cover1' wx:if="{{tongyi}}" catchtap='quxiao'>
+  <view class='cover2' catchtap='formSubmit'>
+    <view class='cover3'>协议</view>
+    <view class='cover4'>该协议为</view>
+    <view class='cover4'>您的租房协议，请仔细阅读，此协议为租客及房东共同遵守，受法律保护。如有问题请联系 15850686123，点击同意则代表您接收该协议</view>
+    <button class='cover5 cover3' type='warn' catchtap='finish'>同意</button>
+  </view>
+</view>

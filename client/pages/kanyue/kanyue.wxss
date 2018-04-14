@@ -1,0 +1,111 @@
+/* pages/kanyue/kanyue.wxss */
+
+.kanyue1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  padding: 20rpx 0 10rpx;
+  border-bottom: 10rpx solid #ddd;
+}
+
+.kanyue2 {
+  width: 180rpx;
+}
+
+.kanyue3 {
+  width: 172rpx;
+  height: 129rpx;
+}
+
+.kanyue4 {
+  width: 500rpx;
+}
+
+.kanyue5 {
+  font-size: 24rpx;
+}
+
+.kanyue6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.kanyue7 {
+  width: 27rpx;
+  height: 27rpx;
+  vertical-align: middle;
+}
+
+.kanyue8, .kanyue9 {
+  font-size: 20rpx;
+  color: #999;
+}
+
+.kanyue10 {
+  font-size: 20rpx;
+  background: #999;
+  line-height: 50rpx;
+}
+
+.form1 {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ddd;
+  padding: 10rpx;
+}
+
+.form2 {
+  font-size: 24rpx;
+  line-height: 75rpx;
+}
+
+.form3 {
+  font-size: 20rpx;
+  z-index: 0;
+}
+
+.form4 {
+  border-bottom: 10rpx solid #ddd;
+}
+
+.form5 {
+  background: #ddd;
+  margin: 0 auto;
+  width: 698rpx;
+  height: 238rpx;
+}
+
+.submit {
+  width: 750rpx;
+  position: absolute;
+  bottom: 0;
+}
+
+.cover1 {
+  width: 750rpx;
+  height: 1205rpx;
+  background: rgba(0,0,0 , 0.5);
+  position: absolute;
+  top: 0;
+}
+
+.cover2 {
+
+  background: #fff;
+  width: 496rpx;
+  margin:300rpx auto;
+  padding: 50rpx;
+  border-radius: 20rpx;
+}
+.cover3{
+  text-align: center;
+  font-size: 28rpx;
+}
+.cover4{
+  font-size: 20rpx;
+}
+.cover5{
+  height: 65rpx;
+}

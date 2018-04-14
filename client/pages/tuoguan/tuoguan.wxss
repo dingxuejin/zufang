@@ -1,0 +1,34 @@
+/* pages/tuoguan/tuoguan.wxss */
+
+.tuoguan1 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  height: 60rpx;
+  border-top: 2rpx solid #999;
+  border-bottom: 2rpx solid #999;
+}
+
+.tuoguan2 {
+  font-size: 24rpx;
+  box-sizing: border-box;
+  border-right: 2rpx solid #999;
+  width: 140rpx;
+  text-align: center;
+}
+
+.tuoguan3 {
+  border-right: none;
+}
+
+.tuoguan2::after {
+  display: inline-block;
+  width: 1rpx;
+  height: 1rpx;
+  content: "";
+  border: 10rpx solid transparent;
+  border-top: 10rpx solid #000;
+  vertical-align: middle;
+}

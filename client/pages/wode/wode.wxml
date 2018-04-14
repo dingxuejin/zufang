@@ -1,0 +1,51 @@
+<view class='flex wode1'>
+  <view class='wode2'>
+    <view class='wode3'>
+      <image class='wode4' src='{{imgUrl}}image/我的/u1292.png'></image>
+    </view>
+    <view>
+      <view class='wode5'>想吃咕噜肉</view>
+      <view class='wode6'>5348****5824</view>
+    </view>
+  </view>
+  <view class='wode7 flex' bindtap='qiehuan'>
+    <image class='wode8' src='../../image/wode/qiehuan.png'></image>
+    <text wx:if="{{!qiehuan}}">切换为房东</text>
+    <text wx:if="{{qiehuan}}">切换为租客</text>
+  </view>
+</view>
+<view class='hr'></view>
+<navigator url='../shoucang/shoucang'>
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1368.png" zbt="收藏"></wode>
+</navigator>
+<navigator url='../liulan/liulan'>
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1382.png" zbt="浏览记录"></wode>
+</navigator>
+<view class='hr'></view>
+<navigator url='../xinyong/xinyong'>
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1384.png" zbt="信用认证"></wode>
+</navigator>
+<navigator url='../kanfang/kanfang' wx:if="{{!qiehuan}}">
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1374.png" zbt="看房记录"></wode>
+</navigator>
+
+<navigator url='../zfjl/zfjl' wx:if="{{!qiehuan}}">
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1386.png" zbt="租房记录"></wode>
+</navigator>
+<navigator url='../hetong/hetong'>
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1376.png" zbt="我的合同"></wode>
+</navigator>
+<navigator url='../jiaozu/jiaozu' wx:if="{{!qiehuan}}">
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1378.png" zbt="我要缴租"></wode>
+</navigator>
+<view class='hr'></view>
+<navigator url='../tuoguan/tuoguan' wx:if="{{qiehuan}}">
+  <wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1372.png" zbt="托管情况"></wode>
+</navigator>
+
+<wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1438.png" zbt="第三方服务"></wode>
+<view class='hr'></view>
+<wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1370.png" zbt="关于我们"></wode>
+<wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/详情页/u658.png" zbt="在线客服"></wode>
+<wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1406.png" zbt="反馈"></wode>
+<wode imgwidth="40rpx" imgheight="40rpx" img="{{imgUrl}}image/我的/u1434.png" zbt="常见问题"></wode>

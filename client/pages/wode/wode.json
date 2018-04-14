@@ -1,0 +1,5 @@
+{
+  "usingComponents":{
+    "wode":"../../components/wode/wode"
+  }
+}

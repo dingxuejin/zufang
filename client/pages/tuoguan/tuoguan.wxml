@@ -1,0 +1,22 @@
+<!--pages/tuoguan/tuoguan.wxml-->
+<view class='tuoguan1'>
+  <view class='tuoguan2'>
+    所有
+  </view>
+  <view class='tuoguan2'>
+    未出租
+  </view>
+  <view class='tuoguan2'>
+    已出租
+  </view>
+  <view class='tuoguan2 '>
+    已托管
+  </view>
+  <view class='tuoguan2 tuoguan3'>
+    待审核
+  </view>
+</view>
+
+<scroll-view>
+  <my-mt wx:key="{{index}}" wx:for="{{zufang}}" img="{{imgUrl}}{{item.img}}" weizhi="{{item.weizhi}}" dizhi="{{item.dizhi}}"></my-mt>
+</scroll-view>

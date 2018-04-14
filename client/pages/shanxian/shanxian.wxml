@@ -1,0 +1,12 @@
+<!--pages/shanxian/shanxian.wxml-->
+<view id='shanxian'>
+  <view class='shanxian1'>
+    <image class='shanxian2' src='../../image/shanxian/u4.png'></image>
+  </view>
+  <view class='shanxian3'>
+    <view class='shanxian4'>
+      来一场说走就走的旅行
+    </view>
+
+  </view>
+</view>

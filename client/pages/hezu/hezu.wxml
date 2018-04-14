@@ -1,0 +1,39 @@
+<!--pages/hezu/hezu.wxml-->
+<template name="other">
+  <view class='hezu3'>
+    <image class='hezu4' src='{{imgUrl}}image/消息子页面/u1208.png'></image>
+    <!-- <image class='hezu5' src='../../image/消息子页面/u1210.png'></image> -->
+    <view class='hezu6'>
+      <text>编辑文本编辑文本编辑文本编辑文</text>
+    </view>
+  </view>
+</template>
+<template name="my">
+  <view class='hezu7'>
+    <image class='hezu8' src='{{imgUrl}}image/消息子页面/u1208.png'></image>
+    <!-- <image class='hezu9' src='../../image/消息子页面/u1210.png'></image> -->
+    <view class='hezu10'>
+      <text>编辑文本编辑文本编辑文本编辑文</text>
+    </view>
+  </view>
+</template>
+<view class='hezu1'>
+  用户须知
+</view>
+<view class='hezu2'>
+  <template is="other" data="{{imgUrl}}"></template>
+  <template is="other" data="{{imgUrl}}"></template>
+  <template is="my" data="{{imgUrl}}"></template>
+  <template is="other" data="{{imgUrl}}"></template>
+</view>
+<view class='fasong1'>
+  <view>
+    <image class='fasong2' src='{{imgUrl}}image/消息子页面/u1202.png'></image>
+  </view>
+  <view>
+    <input class='fasong3'></input>
+  </view>
+  <view>
+    <image class='fasong4' src='{{imgUrl}}image/消息子页面/u1204.png'></image>
+  </view>
+</view>

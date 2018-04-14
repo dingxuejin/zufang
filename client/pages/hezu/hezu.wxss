@@ -1,0 +1,86 @@
+/* pages/hezu/hezu.wxss */
+
+.hezu1 {
+  font-size: 26rpx;
+  padding: 10rpx;
+}
+
+.hezu2 {
+  background: #ddd;
+  padding: 50rpx;
+  height: 1000rpx;
+}
+
+.hezu3, .hezu7 {
+  width: 500rpx;
+  position: relative;
+}
+
+.hezu3 {
+  padding: 20rpx 0rpx 0rpx 25rpx;
+  margin-left: 120rpx;
+  margin-bottom: 50rpx;
+}
+
+.hezu7 {
+  padding: 20rpx 25rpx 0rpx 0rpx;
+  margin-right: 120rpx;
+  margin-bottom: 50rpx;
+}
+
+.hezu4, .hezu8 {
+  width: 100rpx;
+  height: 100rpx;
+  vertical-align: top;
+  position: absolute;
+}
+
+.hezu4 {
+  left: -120rpx;
+}
+
+.hezu8 {
+  right: -120rpx;
+}
+
+.hezu5, .hezu9 {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.hezu5 {
+  left: 0;
+}
+
+.hezu9 {
+  right: 0;
+}
+
+.hezu6,.hezu10 {
+  background: #fff;
+  width: 87%;
+  height: 88%;
+  padding: 20rpx;
+  font-size: 24rpx;
+}
+.fasong1{
+  width: 750rpx;
+  height: 98rpx;
+  background: #fff;
+  position: absolute;
+  bottom:0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.fasong2,.fasong4{
+  width: 49rpx;
+  height: 49rpx;
+}
+.fasong3{
+  width:520rpx;
+  background: #ddd;
+  border-radius: 10rpx;
+}

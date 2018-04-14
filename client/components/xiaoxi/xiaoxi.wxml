@@ -1,0 +1,17 @@
+<!--components/xiaoxi/xiaoxi.wxml-->
+  <view class='xiaoxi'>
+    <view class='xiaoxi1'>
+      <image lazy-load='true' class='xiaoxi1-1' src='{{img}}'></image>
+    </view>
+    <view class='xiaoxi2'>
+      <view class='xiaoxi3'>
+        <text>{{bt}}</text>
+      </view>
+      <view class='xiaoxi4'>
+        <text>{{fbt}}</text>
+      </view>
+    </view>
+    <view class='xiaoxi5'>
+      <text>{{sj}}</text>
+    </view>
+  </view>

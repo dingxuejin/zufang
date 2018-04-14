@@ -1,0 +1,87 @@
+/* components/zfjl/zfjl.wxss */
+.container{
+  border-bottom:  10rpx #ddd solid;
+  padding-bottom: 10rpx;
+}
+.shoucang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  border-bottom: 1rpx #ddd solid; 
+  padding:20rpx 20rpx 10rpx;
+  box-sizing: border-box;
+}
+.shoucang1 {
+  width: 200rpx;
+  padding-right: 20rpx;
+  
+}
+
+.shoucang2 {
+  width: 181rpx;
+  height: 121rpx;
+  vertical-align: middle;
+}
+
+.shoucang3 {
+  width: 500rpx;
+}
+
+.shoucang4 {
+  width: 500rpx;
+  font-size: 24rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.shoucang5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+.shoucang6{
+ overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 350rpx;
+}
+.shoucang7 {
+  width: 27rpx;
+  height: 27rpx;
+  vertical-align: middle;
+}
+
+.shoucang8 {
+  font-size: 20rpx;
+  color: #999;
+  vertical-align: middle;
+  line-height: 25rpx;
+ 
+}
+
+.shoucang9 {
+  font-size: 20rpx;
+  color: #f33;
+  width: 100rpx;
+  text-align: right;
+}
+.shoucang10{
+  display: flex;
+  justify-content: space-between;
+  padding-top:10rpx;
+}
+.shoucang11{
+  font-size: 20rpx;
+  padding-left:20rpx;
+}
+.shoucang12{
+  font-size: 20rpx;
+  color:#f00;
+  padding: 0 10rpx;
+  margin-right:20rpx;
+  border: 1rpx solid #999;
+  border-radius: 10rpx;
+}

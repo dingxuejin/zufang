@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "shoucang": "../../components/shoucang/shoucang",
+    "my-search":"../../components/mysearch/mysearch"
+  }
+}

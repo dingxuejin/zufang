@@ -1,0 +1,6 @@
+.hr {
+  height: 50rpx;
+  background: #ddd;
+  padding-left: 20rpx;
+  line-height: 50rpx;
+}

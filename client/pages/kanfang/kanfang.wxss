@@ -1,0 +1,33 @@
+/* pages/kanfang/kanfang.wxss */
+.kanfang1{
+  border-bottom: 10rpx solid #ddd;
+  margin-bottom: 20rpx;
+}
+.kanfang2{
+  position: relative;
+}
+.kanfang3{
+  width: 750rpx;
+  height: 356rpx;
+}
+.kanfang4{
+  position: absolute;
+  left: 30rpx;
+  bottom: 30rpx;
+  border-radius: 10rpx;
+  background: #555;
+  font-size: 24rpx;
+  color:#fff;
+  padding:0 10rpx;
+}
+.kanfang5{
+  font-size: 22rpx;
+  padding:0 20rpx;
+}
+.kanfang6{
+  font-size: 22rpx;
+}
+.kanfang7{
+  vertical-align: super;
+  font-size: 15rpx;
+}
