@@ -120,7 +120,6 @@ Page({
     console.log("提交gd");
     this.totalActive()
   },
-
   totalActive() {
     let totalActive = this.data.totalActive;
     this.setData({
@@ -196,6 +195,7 @@ Page({
       sxActive: active
     })
   },
+<<<<<<< HEAD
   toQuyu1(e) {
     let active = e.currentTarget.dataset.quyu;
     this.setData({
@@ -237,6 +237,13 @@ Page({
       quyuActive3: active
     })
     // 根据quyu1的下标 quyuActive1、quyu2的下标 quyuActive2、 quyu3的下标 quyuActive3发送网络请求，得出结果
+=======
+  toQuyu(e) {
+    let active = e.currentTarget.dataset.quyu;
+    this.setData({
+      quyuActive: active
+    })
+>>>>>>> 7dc7e11f6b1d5ae4c0dcc7313752497f1b416e7d
   },
   /**
    * 生命周期函数--监听页面加载
